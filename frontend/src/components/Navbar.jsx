@@ -5,6 +5,7 @@ import { PlusSquareIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 import { IoMoon } from "react-icons/io5";
 import { Sun as LuSun } from "react-feather";
+import { useProductStore } from "../store/product";
 
 const Navbar = () => {
 

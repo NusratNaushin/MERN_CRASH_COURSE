@@ -9,7 +9,10 @@ import HomePage from "./pages/HomePage";
 import Navbar from "./components/navbar";
 import React, { use } from "react";
 import { useColorModeValue } from "@chakra-ui/react";
+import { useProductStore } from "./store/product";
 function App() {
+
+  
   return (
     <Box minH={"100vh"} bg = {useColorModeValue("teal.50","gray.900")}>
       <Navbar />
